@@ -1,4 +1,4 @@
-//consegui tipar
+//consegue tipar
 let estaChovendo: boolean = false;
 estaChovendo = true;
 
