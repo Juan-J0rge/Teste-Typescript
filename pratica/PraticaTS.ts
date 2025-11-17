@@ -4,14 +4,13 @@
  *  e uma função de saudação que deverá receber um nome e retornar a concatenação “Olá “ + nome;
  */
 
-function PraticaMulti(param1: number,param2: number) {
+function PraticaMulti(param1: number, param2: number): number {
     return param1 * param2;
 }
 
-const recebeNome = (nome: string) => {
-    console.log(`Ola ${nome}, tudo bem?`)
+const recebeNome = (nome: string): string => {
+    return `Olá ${nome}`;
 }
 
-
-console.log('Resultado da multiplicação: ' , PraticaMulti(2, 3));
-recebeNome('Túlio');
+console.log('Resultado da multiplicação: ', PraticaMulti(2, 3));
+console.log(recebeNome('Túlio'));
